@@ -1,0 +1,4 @@
+我的模型加载那一块儿使用到了subgraph
+
+1 用于获取模型的inputs 和outputs
+2  subgraph->nodes_and_registration()    可以用context->GetNodeAndRegistration(context, node_index, &node, &reg))
